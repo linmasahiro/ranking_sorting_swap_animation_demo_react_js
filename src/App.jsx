@@ -4,7 +4,7 @@ import RankingTable from "./components/RankingTable";
 import './App.css'
 
 // JSON File URL
-const url = "/testData.json";
+const url = "/ranking_sorting_swap_animation_demo_react_js/testData.json";
 // Score refresh duration
 const refreshTime = 300;
 
