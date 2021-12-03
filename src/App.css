@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft JhengHei",
+    sans-serif;
+}
+
+html:lang(ja) {
+  font-family: "Hiragino Kaku Gothic Pro", Osaka, Meiryo, "MS PGothic", Arial,
+    sans-serif;
+}
+
+.streamer {
+  margin: 0 auto;
+  width: 320px;
+  height: 48px;
+  transition: all 0.3s ease 0s;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.streamer .ranking-no {
+  width: 30px;
+  text-align: center;
+}
+
+.streamer .picture {
+  width: 40px;
+  text-align: center;
+}
+
+.streamer .picture img {
+  margin-right: 2em;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.streamer .display-name {
+  width: 100px;
+  text-align: left;
+}
+
+.streamer .score {
+  width: 150px;
+  text-align: right;
+}
+
